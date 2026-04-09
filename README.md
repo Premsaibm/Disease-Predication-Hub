@@ -16,17 +16,16 @@ A full-stack health screening application that combines machine learning models 
 ## Project Structure
 
 ```text
-backend/
-  main.py            FastAPI application
-  database.py        SQLite user and history logic
-  chatbot.py         AI assistant integration
-  models_loader.py   Loads trained model files
+README.md
+requirements.txt
 frontend/
-  app.py             Streamlit user interface
-  auth.py            Frontend authentication helpers
+backend/
 models/
-  *.sav              Trained ML models and scalers
-requirements.txt     Python dependencies
+dataset/
+  diabetes_risk_factors.csv
+  heart_fixed.csv
+  Liver Patient Dataset (LPD)_train.csv
+  parkinsons_fixed.csv
 ```
 
 ## Requirements
