@@ -91,3 +91,8 @@ http://localhost:8501
 - This project is for educational and screening purposes only.
 - Predictions are not medical diagnoses.
 - Keep `backend/.env` private and never commit real API keys.
+## How to Use
+
+1. Start backend using: python backend/main.py
+2. Start frontend using: streamlit run frontend/app.py
+3. Open browser and use the application
